@@ -1,0 +1,106 @@
+.heading-edit{
+    font-size: 40px;
+}
+.edit-form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid darken(white,20%);
+    padding: 30px 20px ;
+    box-shadow: 4px 4px 0.1875em rgba(0,0,0, .1); /* 3/16 */
+}
+.input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: darken(white,20%);
+
+}
+.input-category{
+    width: 48.4%;
+    margin-right: 9px;
+}
+.input-title{
+    width: 48.4%;
+}
+.input-image{
+    width: 100%;
+}
+.input-text{
+    width: 100%;
+    margin-top: 50px;
+    min-height: 500px;
+}
+.tags{
+    margin-top: 30px;
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+}
+.tags label{
+    margin-right: 50px;
+}
+.edit-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.edit{
+   margin-top: 50px;
+   padding: 10px 20px;
+   border-radius: 5px;
+   background: lighten(black,10%);
+   color: white;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 13px;
+}
+.edit-back{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+//ADD TAG 
+
+.new-tag{
+    text-align: left;
+    margin-bottom: 100px;
+}
+.new-tag input{
+    width: 20%;
+}
+.new-tag button{
+    text-transform: uppercase;
+    font-size: 16px;
+    background: black;
+    color: white;
+}
+//MEDIA QUERIES
+
+@media(max-width: 1200px){
+    .input-category{
+        width: 100%;
+        margin-right: 0;
+    }
+    .input-title{
+        width: 100%;
+    }
+    .input-image{
+        width: 100%;
+        margin-right: 0;
+      
+    }
+    .input-time{
+        width: 100%;
+    }
+}

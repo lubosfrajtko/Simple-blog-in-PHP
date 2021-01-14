@@ -1,0 +1,48 @@
+.register-form{
+    border: 1px solid darken(white,30%);
+    box-shadow: 0em 0.5em 1em 0em rgba(0,0,0,0.2); /* 0/16 */ /* 8/16 */ /* 0/16 */
+    width: 20%;
+    margin: 0 auto;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.register-form h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.inputs{
+    width: 90%;
+    padding: 15px 0;
+    border: none;
+    border-bottom: 1px solid darken(white,20%);
+}
+.register-form button{
+    margin-top: 30px;
+    width: 90%;
+    padding: 10px 0;
+    background: lighten(black, 10%);
+    color: white;
+    cursor: pointer;
+}
+.register-form p{
+    color: darken(white, 70%);
+}
+.login{
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 1000px){
+
+    .register-form{
+        width: 40%;
+    }
+}
+@media (max-width: 800px){
+
+    .register-form{
+        width: 55%;
+    }
+}

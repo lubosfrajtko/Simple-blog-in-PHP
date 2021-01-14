@@ -1,0 +1,93 @@
+//
+//	GENERAL
+// ------------------------------------------------------
+
+// border-box
+//
+html{
+	box-sizing: border-box;
+}
+*, *:before *:after{
+	box-sizing: inherit;
+}
+// clearfix
+//
+.group:before,
+.group:after{
+	content: " ";
+	display: table;
+}
+.group:after{
+	clear: both;
+}
+.group{
+	*zoom: 1;
+}
+
+
+body {
+	max-width: 100%;
+	color: $color-text;
+	background: $color-bg;
+
+	font: {
+		size: 100%;
+		family: $font-family;
+		weight: normal;
+	}
+
+	text-align: center;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: .5s all ease-in-out;
+	color: $color-text;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.menu {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+main{
+	margin-top: 30px;
+}
+.container{
+	max-width: 1200px; 
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.container-post{
+	max-width: 1000px; 
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+//404 page
+.heading-404{
+	font-size: 40px;
+	text-align: center;
+	border-bottom: 1px solid darken(white, 30%);
+	padding-bottom: 30px;
+	margin-top: 30px;
+	letter-spacing: 3px;
+}
+.not-found{
+	font-weight: 400;
+}
+//MEDIA QUERIES
